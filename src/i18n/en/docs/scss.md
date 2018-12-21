@@ -14,6 +14,12 @@ Once you have `sass` installed you can import SCSS files from JavaScript files.
 import './custom.scss'
 ```
 
+or
+
+```html
+<link href="./custom.scss" rel="stylesheet">
+```
+
 Dependencies in the SCSS files can be used with the `@import` statements.
 
 If you don't have `sass` module installed before running Parcel, Parcel will install it automatically for you.
